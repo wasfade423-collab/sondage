@@ -20,9 +20,46 @@
                 if(isset($_POST['PayVil']) && !empty($_POST['PayVil'])){
                     $payvil = $_POST['PayVil'];
                 }
+                if(isset($_GET['action']))
+                    {
+                        $action=$_GET['action'];
+                    }
+                else
+                    {
+                     $action="login";   
+                    }
+                switch($action)
+                {
+                    case'form':
+                        $this->form();
+                    break;
+                    case'login':
+                     $this->login();
+                     break;
+                    default:
+                    break;
+                    
+                }
             }
+        }
+        private function form()
+        {
+           include("vue/login.php");
+            if($_SERVER['REQUEST_METHOD'] == "POST"){
+                $nameEnq=trim(htmlspecialchars($_POST['nomEnqt']));
+                $nomQuest=trim(htmlspecialchars($_POST['nomQuest']));
+                $prenomQuest=trim(htmlspecialchars($_POST['prenomQuest']));
+                  if(!empty($nameEnq)&&!empty($nameEnq)&&!empty($nameEnq))
+                    {
+                        
+                        $connet=$this->model->createLogin();
+                    }
+            
+            }
+        }
+        private function login()
+        {
 
-            if(empty($_GET)) include("vue/formulaires.php");
         }
     }
 ?>
