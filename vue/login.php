@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="" method="post">
-        <label for="enqu^rteur">Nom d'enqu^rteur</label><br>
+        <label for="enqu^rteur">Nom d'enquêteur</label><br>
         <input type="text" name="nomEnqt" id="nomEqT"><br>
         <label for="enquete">Informations sur le questionné.</label><br>
         <input type="text" name="nomQuest" id="nomQuest" placeholder="Nom du questionné"><br>
