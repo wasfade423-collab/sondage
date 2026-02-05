@@ -73,6 +73,7 @@
                     <input type="radio" name="épargneparmois" class="épargneparmois" value="Variable"><label>Cela dépend des mois</label><br>
 
 
+<<<<<<< HEAD
                 </div>
                 <!--  Le formulaire 3 -->
                 <div>
@@ -166,6 +167,54 @@
                         <input type="radio" name="explication" class="explication" value="audio"><label>Message audio</label>
                         <input type="radio" name="explication" class="explication" value="SMS"><label>SMS</label>
                         <input type="radio" name="explication" class="explication" value="Humain"><label>Conseiller humain</label>
+=======
+        </div>
+        <!--  Le formulaire 3 -->
+        <div>
+        </div>
+        <!--  Le formulaire 4 -->
+        <div>
+            <h2>Connaissance des investissements</h2>
+            <!--Investissements financiers-->
+            <label>Avez vous deja entendu parler d'investissements financiers</label>
+            <input type="radio" name="invfin" class="invfin" value="Oui"><label>Oui</label><br>
+            <input type="radio" name="invfin" class="invfin" value="Non"><label>Non</label><br>
+            <!--ETF-->
+            <label>Connaissez-vous les ETF(fonds d'investissements)</label>
+            <input type="radio" name="ETF" class="ETF" value="Oui"><label>Oui</label><br>
+            <input type="radio" name="ETF" class="ETF" value="Non"><label>Non</label><br>
+            <!--Investissements simples?-->
+            <label>Seriez vous interressé(e) par un investisement simple ,sécurisé et expliqué pas à pas </label>
+            <input type="radio" name="invsimple" class="invsimple" value="Oui"><label>Oui</label><br>
+            <input type="radio" name="invsimple" class="invsimple" value="Peutetre"><label>Peut etre</label><br>
+            <input type="radio" name="invsimple" class="invsimple" value="Non"><label>Non</label><br>
+
+
+
+        </div>
+        <!--  Le formulaire 5 -->
+        <div>
+            <h2>RetireAfrika(validation du concept)</h2>
+            <!--validation du concept-->
+            <label>Seriez vous pret à investir de petites sommes(ex:1000-5000-10000FCFA ou plus) via Moile Money ?</label>
+            <input type="radio" name="invpsomme" class="invpsomme" value="Oui"><label>Oui</label><br>
+            <input type="radio" name="invpsomme" class="invpsomme" value="Non"><label>Non</label><br>
+            <input type="radio" name="invpsomme" class="invpsomme" value="Peutetre"><label>Peut etre</label><br>
+            <!--fréquence-->
+            <label>A quelle fréquence pourriez vous investir ?</label>
+            <input type="radio" name="fréquence" class="fréquence" value="semaine"><label>Chaque semaine</label><br>
+            <input type="radio" name="fréquence" class="fréquence" value="mois"><label>Chaque mois</label><br>
+            <input type="radio" name="fréquence" class="fréquence" value="Surplus"><label>Quand j'ai un surplus</label><br>
+            <input type="radio" name="fréquence" class="fréquence" value="Rarement"><label>Rarement</label><br>
+             <!--Rassurer -->
+            <label>Qu'es ce qui vous rassurerait le plus?</label>
+            <input type="checkbox" nom="rassure" class="rassure" value="sécurité"><label>Sécurité de l'argent</label>
+            <input type="checkbox" nom="rassure" class="rassure" value="retraitpossible"><label>Possibilité de retirer</label>
+            <input type="checkbox" nom="rassure" class="rassure" value="simpleexplication"><label>Explication simples</label>
+            <input type="checkbox" nom="rassure" class="rassure" value="gainsuivi"><label>Suivi clair du gain </label>
+            <input type="checkbox" nom="rassure" class="rassure" value="appui"><label>Appui d'une banque connue</label>
+            
+>>>>>>> 1c0712fb20b4f50d2fc85908132719e57bd181d8
 
 
 
