@@ -7,12 +7,9 @@
     <title>Collecte De Données</title>
 
 </head>
-<<<<<<< HEAD
-=======
 
 <body>
     <form action="model.php" method="POST">
->>>>>>> section2
 
 <body>
     <form action="model.php" method="POST">
@@ -48,32 +45,32 @@
         <!--  Le formulaire 2-->
 
         <div>
-            <h2>Revenus et épargne actuelle</h2>
-            <!--Régularité des revenus -->
+            <h2>Revenus et epagne actuelle</h2>
+            <!--regularite des revenus -->
             <label>Vos revenus sont:</label>
-            <input type="radio" name="régularité" class="régularité" value="Réguliers"><label>Réguliers</label><br>
-            <input type="radio" name="régularité" class="régularité" value="Irréguliers"><label>Irréguliers</label><br>
-            <input type="radio" name="régularité" class="régularité" value="Variables"><label>Très variables selon le mois</label><br>
+            <input type="radio" name="regularite" class="regularite" value="Réguliers"><label>Réguliers</label><br>
+            <input type="radio" name="regularite" class="regularite" value="Irréguliers"><label>Irréguliers</label><br>
+            <input type="radio" name="regularite" class="regularite" value="Variables"><label>Très variables selon le mois</label><br>
             <!--Epargnez-vous actuellement -->
             <label>Epargnez vous actuellement ?</label>
-            <input type="radio" name="épargne" class="épargne" value="Régulièrement"><label>Oui,régulièrement</label><br>
-            <input type="radio" name="épargne" class="épargne" value="Temps_en_temps"><label>Oui,de temps en temps</label><br>
-            <input type="radio" name="épargne" class="épargne" value="Non"><label>Non</label><br>
-            <!--Moyens d'épargne -->
-            <label>Si oui,comment épargnez vous ?</label>
-            <input type="checkbox" nom="moyen_éparnge" class="moyen_épargne" value="Tontine"><label>Tontine</label>
-            <input type="checkbox" nom="moyen_éparnge" class="moyen_épargne" value="Mobile_Money"><label>Mobile Money</label>
-            <input type="checkbox" nom="moyen_éparnge" class="moyen_épargne" value="Compte_bancaire"><label>Compte bancaire</label>
-            <input type="checkbox" nom="moyen_éparnge" class="moyen_épargne" value="Assurance"><label>Assurance</label>
-            <input type="checkbox" nom="moyen_éparnge" class="moyen_épargne" value="Maison"><label>A la maison</label>
-            <input type="checkbox" nom="moyen_éparnge" class="moyen_épargne" value="Autre"><label>Autre</label>
-            <!-- Moyenne d'épargne par mois-->
-            <label>En moyenne ,combien épargnez vous par mois ?</label>
-            <input type="radio" name="épargneparmois" class="épargneparmois" value="M5k"><label>Moins de 5000 FCFA</label><br>
-            <input type="radio" name="épargneparmois" class="épargneparmois" value="5kInf10k"><label>5000-10000 FCFA</label><br>
-            <input type="radio" name="épargneparmois" class="épargneparmois" value="10kInf25k"><label>10000-25000 FCFA</label><br>
-            <input type="radio" name="épargneparmois" class="épargneparmois" value="P25k"><label>Plus de 25000 FCFA</label><br>
-            <input type="radio" name="épargneparmois" class="épargneparmois" value="Variable"><label>Cela dépend des mois</label><br>
+            <input type="radio" name="epagne" class="epagne" value="Régulièrement"><label>Oui,régulièrement</label><br>
+            <input type="radio" name="epagne" class="epagne" value="Temps_en_temps"><label>Oui,de temps en temps</label><br>
+            <input type="radio" name="epagne" class="epagne" value="Non"><label>Non</label><br>
+            <!--Moyens d'epagne -->
+            <label>Si oui,comment epagnez vous ?</label>
+            <input type="checkbox" name="moyen_epargne[]" class="moyen_epagne" value="Tontine"><label>Tontine</label>
+            <input type="checkbox" name="moyen_epargne[]" class="moyen_epagne" value="Mobile_Money"><label>Mobile Money</label>
+            <input type="checkbox" name="moyen_epargne[]" class="moyen_epagne" value="Compte_bancaire"><label>Compte bancaire</label>
+            <input type="checkbox" name="moyen_epargne[]" class="moyen_epagne" value="Assurance"><label>Assurance</label>
+            <input type="checkbox" name="moyen_epargne[]" class="moyen_epagne" value="Maison"><label>A la maison</label>
+            <input type="checkbox" name="moyen_epargne[]" class="moyen_epagne" value="Autre"><label>Autre</label>
+            <!-- Moyenne d'epagne par mois-->
+            <label>En moyenne ,combien epagnez vous par mois ?</label>
+            <input type="radio" name="epagneParMois" class="epagneParMois" value="M5k"><label>Moins de 5000 FCFA</label><br>
+            <input type="radio" name="epagneParMois" class="epagneParMois" value="5kInf10k"><label>5000-10000 FCFA</label><br>
+            <input type="radio" name="epagneParMois" class="epagneParMois" value="10kInf25k"><label>10000-25000 FCFA</label><br>
+            <input type="radio" name="epagneParMois" class="epagneParMois" value="P25k"><label>Plus de 25000 FCFA</label><br>
+            <input type="radio" name="epagneParMois" class="epagneParMois" value="Variable"><label>Cela dépend des mois</label><br>
 
 
         </div>
@@ -84,18 +81,18 @@
         <div>
             <h2>Connaissance des investissements</h2>
             <!--Investissements financiers-->
-            <label>Avez vous deja entendu parler d'investissements financiers</label>
-            <input type="radio" name="invfin" class="invfin" value="Oui"><label>Oui</label><br>
-            <input type="radio" name="invfin" class="invfin" value="Non"><label>Non</label><br>
+            <label>Avez vous déjà entendu parler d'investissements financiers</label>
+            <input type="radio" name="knowInvest" class="knowInvest" value="Oui"><label>Oui</label><br>
+            <input type="radio" name="knowInvest" class="knowInvest" value="Non"><label>Non</label><br>
             <!--ETF-->
             <label>Connaissez-vous les ETF(fonds d'investissements)</label>
             <input type="radio" name="ETF" class="ETF" value="Oui"><label>Oui</label><br>
             <input type="radio" name="ETF" class="ETF" value="Non"><label>Non</label><br>
             <!--Investissements simples?-->
             <label>Seriez vous interressé(e) par un investisement simple ,sécurisé et expliqué pas à pas </label>
-            <input type="radio" name="invsimple" class="invsimple" value="Oui"><label>Oui</label><br>
-            <input type="radio" name="invsimple" class="invsimple" value="Peutetre"><label>Peut etre</label><br>
-            <input type="radio" name="invsimple" class="invsimple" value="Non"><label>Non</label><br>
+            <input type="radio" name="SimpleInvest" class="SimpleInvest" value="Oui"><label>Oui</label><br>
+            <input type="radio" name="SimpleInvest" class="SimpleInvest" value="Peutetre"><label>Peut etre</label><br>
+            <input type="radio" name="SimpleInvest" class="SimpleInvest" value="Non"><label>Non</label><br>
 
 
 
@@ -105,22 +102,22 @@
             <h2>RetireAfrika(validation du concept)</h2>
             <!--validation du concept-->
             <label>Seriez vous pret à investir de petites sommes(ex:1000-5000-10000FCFA ou plus) via Moile Money ?</label>
-            <input type="radio" name="invpsomme" class="invpsomme" value="Oui"><label>Oui</label><br>
-            <input type="radio" name="invpsomme" class="invpsomme" value="Non"><label>Non</label><br>
-            <input type="radio" name="invpsomme" class="invpsomme" value="Peutetre"><label>Peut etre</label><br>
-            <!--fréquence-->
-            <label>A quelle fréquence pourriez vous investir ?</label>
-            <input type="radio" name="fréquence" class="fréquence" value="semaine"><label>Chaque semaine</label><br>
-            <input type="radio" name="fréquence" class="fréquence" value="mois"><label>Chaque mois</label><br>
-            <input type="radio" name="fréquence" class="fréquence" value="Surplus"><label>Quand j'ai un surplus</label><br>
-            <input type="radio" name="fréquence" class="fréquence" value="Rarement"><label>Rarement</label><br>
+            <input type="radio" name="InvestSmallPrice" class="InvestSmallPrice" value="Oui"><label>Oui</label><br>
+            <input type="radio" name="InvestSmallPrice" class="InvestSmallPrice" value="Non"><label>Non</label><br>
+            <input type="radio" name="InvestSmallPrice" class="InvestSmallPrice" value="Peutetre"><label>Peut etre</label><br>
+            <!--frequence-->
+            <label>A quelle frequence pourriez vous investir ?</label>
+            <input type="radio" name="frequence" class="frequence" value="semaine"><label>Chaque semaine</label><br>
+            <input type="radio" name="frequence" class="frequence" value="mois"><label>Chaque mois</label><br>
+            <input type="radio" name="frequence" class="frequence" value="Surplus"><label>Quand j'ai un surplus</label><br>
+            <input type="radio" name="frequence" class="frequence" value="Rarement"><label>Rarement</label><br>
              <!--Rassurer -->
             <label>Qu'es ce qui vous rassurerait le plus?</label>
-            <input type="checkbox" nom="rassure" class="rassure" value="sécurité"><label>Sécurité de l'argent</label>
-            <input type="checkbox" nom="rassure" class="rassure" value="retraitpossible"><label>Possibilité de retirer</label>
-            <input type="checkbox" nom="rassure" class="rassure" value="simpleexplication"><label>Explication simples</label>
-            <input type="checkbox" nom="rassure" class="rassure" value="gainsuivi"><label>Suivi clair du gain </label>
-            <input type="checkbox" nom="rassure" class="rassure" value="appui"><label>Appui d'une banque connue</label>
+            <input type="checkbox" name="rassure" class="rassure" value="sécurité"><label>Sécurité de l'argent</label>
+            <input type="checkbox" name="rassure" class="rassure" value="retraitpossible"><label>Possibilité de retirer</label>
+            <input type="checkbox" name="rassure" class="rassure" value="simpleexplication"><label>Explication simples</label>
+            <input type="checkbox" name="rassure" class="rassure" value="gainsuivi"><label>Suivi clair du gain </label>
+            <input type="checkbox" name="rassure" class="rassure" value="appui"><label>Appui d'une banque connue</label>
             
 
 
