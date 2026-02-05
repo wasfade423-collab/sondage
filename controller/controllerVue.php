@@ -46,9 +46,9 @@
         {
            include("vue/login.php");
             if($_SERVER['REQUEST_METHOD'] == "POST"){
-                $nameEnq=trim(htmlspecialchars($_GET['nomEnqt']));
-                $nomQuest=trim(htmlspecialchars($_GET['nomQuest']));
-                $prenomQuest=trim(htmlspecialchars($_GET['prenomQuest']));
+                $nameEnq=trim(htmlspecialchars($_POST['nomEnqt']));
+                $nomQuest=trim(htmlspecialchars($_POST['nomQuest']));
+                $prenomQuest=trim(htmlspecialchars($_POST['prenomQuest']));
                   if(!empty($nameEnq)&&!empty($nameEnq)&&!empty($nameEnq))
                     {
                         
