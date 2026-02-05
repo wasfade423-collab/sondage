@@ -9,8 +9,8 @@
 <body>
     <form action = "model.php" method = "POST">
 
-        <!--  Le formulaire 1 -->
         <div>
+            <!--  Le formulaire 1 -->
             <h2>Profil du Répondant</h2>
             <!-- Age -->
             <label>Tranche d'Age</label>
@@ -33,23 +33,42 @@
             <!-- Pays/ville -->
             <label for="PayVil">Pays et Ville</label>
             <input type="text" name="PayVil" id="PayVil" placeholder = "Ex: Pays/Ville">
+            <button>Continuez</button>
 
         </div>
-            <!--  Le formulaire 2-->
         <div>
+            <!--  Le formulaire 2-->       
     
         </div>
             <!--  Le formulaire 3 -->
         <div>
     
         </div>
+
             <!--  Le formulaire 4 -->
+            
         <div>
-    
+              <!-- finance -->
+            <h2>Les investissements</h2>
+            <label>Avez-vous déjà entendu parler d’investissements financiers ?</label><br>
+            <input type="radio" name="Cfinance" class="finance" value = "oui"><label>Oui</label>
+            <input type="radio" name="Cfinance" class="finance" value = "non"><label>Non</label><br>
+
+                <!-- ETF -->
+            <label>Connaissez-vous les ETFs ou Fonds d'Investissements?</label><br>
+            <input type="radio" name="etf" class="finance" value = "oui"><label>Oui</label>
+            <input type="radio" name="etf" class="finance" value = "non"><label>Non</label>   <br>  
+
+                <!-- ETF -->
+            <label> Seriez-vous intéressé(e) par un investissement simple, sécurisé et expliqué pas à pas ?ents?</label><br>
+            <input type="radio" name="dispo" class="finance" value = "oui"><label>Oui</label>
+            <input type="radio" name="dispo" class="finance" value = "relatif"><label>Peut-être</label>
+            <input type="radio" name="dispo" class="finance" value = "non"><label>Non</label>   <br> 
+            <button>Continuez</button> 
         </div>
             <!--  Le formulaire 5 -->
         <div>
-    
+
         </div>
         <input type="submit" value="Validé">
     </form>

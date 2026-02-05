@@ -6,6 +6,22 @@
             $this->model = new Model();
         }
         public function control(){
+
+            if($_SERVER['REQUEST_METHOD'] == "POST"){
+                if(isset($_POST['age']) && !empty($_POST['age'])){
+                    $age = $_POST['age'];
+                }
+                if(isset($_POST['sexe']) && !empty($_POST['sexe'])){
+                    $sexe = $_POST['sexe'];
+                }
+                if(isset($_POST['secteurActivite']) && !empty($_POST['secteurActivite'])){
+                    $secteurActivite = $_POST['secteurActivite'];
+                }
+                if(isset($_POST['PayVil']) && !empty($_POST['PayVil'])){
+                    $payvil = $_POST['PayVil'];
+                }
+            }
+
             if(empty($_GET)) include("vue/formulaires.php");
         }
     }
