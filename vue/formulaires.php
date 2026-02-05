@@ -45,18 +45,18 @@
         <div>
             <h2> Retraite & avenir financier</h2>
              <!--   Avenir financière -->
-                <label> Avez-vous déjà pensé à votre retraite ou à votre avenir financier ? </label>
+                <label> <span>09</span> Avez-vous déjà pensé à votre retraite ou à votre avenir financier ? </label>
                 <input type="radio" name="AvenirFinancier"  class="AvenirFinancier" value="Oui, sérieusement"><label>Oui, sérieusement </label><br>
                 <input type="radio" name="AvenirFinancier"  class="AvenirFinancier" value="Un peu "><label>Un peu </label><br>
                 <input type="radio" name="AvenirFinancier"  class="AvenirFinancier" value="Jamais "><label>Jamais </label><br>
              <!--   Vivre a la rétraire-->
-                <label>Comment pensez-vous vivre à la retraite ? </label>
+                <label> <span>10</span> Comment pensez-vous vivre à la retraite ? </label>
                 <input type="radio" name="vivreRetraire"  class="vivreRetrairer" value="Aide des enfants"><label>Aide des enfants </label><br>
                 <input type="radio" name="vivreRetraire"  class="vivreRetrairer" value="Épargne personnelle"><label>Épargne personnelle</label><br>
                 <input type="radio" name="vivreRetraire"  class="vivreRetrairer" value="Activité même à un âge avancé "><label>Activité même à un âge avancé </label><br>
                 <input type="radio" name="vivreRetraire"  class="vivreRetrairer" value="Je ne sais pas "><label>Je ne sais pas </label><br>
              <!-- Pensée sur l'eparge --> 
-                <label>Pensez-vous que l’épargne seule suffit pour bien préparer l’avenir ? </label>
+                <label> <span>11</span> Pensez-vous que l’épargne seule suffit pour bien préparer l’avenir ? </label>
                 <input type="radio" name="AvenirEpagne"  class="AvenirEpagne" value="Oui"><label>Aide des enfants </label><br>
                 <input type="radio" name="AvenirEpagne"  class="AvenirEpagne" value="Non"><label>Aide des enfants </label><br>
                 <input type="radio" name="AvenirEpagne"  class="AvenirEpagne" value=" Je ne sais pas "><label>Aide des enfants </label><br>
