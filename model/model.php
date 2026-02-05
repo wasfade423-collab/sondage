@@ -6,7 +6,7 @@
         }
 
         public function create(){
-            $query = "INSERT INTO individus VALUES"
+            $query = "INSERT INTO individus VALUES";
         }
     }
 ?>
