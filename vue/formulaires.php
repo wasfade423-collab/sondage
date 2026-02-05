@@ -79,48 +79,9 @@
         </div>
         <!--  Le formulaire 3 -->
         <div>
-<<<<<<< HEAD
-            <h2> Retraite & avenir financier</h2>
-             <!--   Avenir financière -->
-                <label> <span>09</span> Avez-vous déjà pensé à votre retraite ou à votre avenir financier ? </label>
-                <input type="radio" name="AvenirFinancier"  class="AvenirFinancier" value="Oui, sérieusement"><label>Oui, sérieusement </label><br>
-                <input type="radio" name="AvenirFinancier"  class="AvenirFinancier" value="Un peu "><label>Un peu </label><br>
-                <input type="radio" name="AvenirFinancier"  class="AvenirFinancier" value="Jamais "><label>Jamais </label><br>
-             <!--   Vivre a la rétraire-->
-                <label> <span>10</span> Comment pensez-vous vivre à la retraite ? </label>
-                <input type="radio" name="vivreRetraire"  class="vivreRetrairer" value="Aide des enfants"><label>Aide des enfants </label><br>
-                <input type="radio" name="vivreRetraire"  class="vivreRetrairer" value="Épargne personnelle"><label>Épargne personnelle</label><br>
-                <input type="radio" name="vivreRetraire"  class="vivreRetrairer" value="Activité même à un âge avancé "><label>Activité même à un âge avancé </label><br>
-                <input type="radio" name="vivreRetraire"  class="vivreRetrairer" value="Je ne sais pas "><label>Je ne sais pas </label><br>
-             <!-- Pensée sur l'eparge --> 
-                <label> <span>11</span> Pensez-vous que l’épargne seule suffit pour bien préparer l’avenir ? </label>
-                <input type="radio" name="AvenirEpagne"  class="AvenirEpagne" value="Oui"><label>Aide des enfants </label><br>
-                <input type="radio" name="AvenirEpagne"  class="AvenirEpagne" value="Non"><label>Aide des enfants </label><br>
-                <input type="radio" name="AvenirEpagne"  class="AvenirEpagne" value=" Je ne sais pas "><label>Aide des enfants </label><br>
-=======
-
->>>>>>> section2
         </div>
         <!--  Le formulaire 4 -->
         <div>
-<<<<<<< HEAD
-
-            <h2>Prise de connaissance avec les investissements</h2>
-            <!-- Investissements -->
-            <label>Avez-vous déjà entendu parler d’investissements financiers ? </label>
-            <input type="radio" name="KnownInvest" class="KnownInvest" value="oui"><label>Oui</label><br>
-            <!-- EFT -->
-            <label>Connaissez-vous des ETF ou fonds d’investissement? </label><br>
-            <input type="radio" name="eft" class="etf" value="oui"><label>Oui</label>
-            <input type="radio" name="eft" class="eft" value="non"><label>Non</label>
-            <!-- interrest -->
-            <label>Seriez-vous intéressé(e) par un investissement simple, sécurisé et expliqué pas à pas ? </label><br>
-            <input type="radio" name="interet" class="interet" value="oui"><label>Oui</label><br>
-            <input type="radio" name="interet" class="interet" value="relatif"><label>Peut-être</label><br>
-            <input type="radio" name="interet" class="interet" value="non"><label>Non</label><br>
-
-            <button>Continuez</button>        
-=======
             <h2>Connaissance des investissements</h2>
             <!--Investissements financiers-->
             <label>Avez vous deja entendu parler d'investissements financiers</label>
@@ -137,13 +98,10 @@
             <input type="radio" name="invsimple" class="invsimple" value="Non"><label>Non</label><br>
 
 
->>>>>>> section2
 
         </div>
         <!--  Le formulaire 5 -->
         <div>
-<<<<<<< HEAD
-=======
             <h2>RetireAfrika(validation du concept)</h2>
             <!--validation du concept-->
             <label>Seriez vous pret à investir de petites sommes(ex:1000-5000-10000FCFA ou plus) via Moile Money ?</label>
@@ -166,7 +124,6 @@
             
 
 
->>>>>>> section2
 
         </div>
         <input type="submit" value="Validé">

@@ -51,7 +51,8 @@
                 $prenomQuest=trim(htmlspecialchars($_GET['prenomQuest']));
                   if(!empty($nameEnq)&&!empty($nameEnq)&&!empty($nameEnq))
                     {
-                        $this->model->createLogin();
+                        
+                        $connet=$this->model->createLogin();
                     }
             
             }
