@@ -58,12 +58,12 @@
                     <input type="radio" name="épargne" class="épargne" value="Non"><label>Non</label><br>
                     <!--Moyens d'épargne -->
                     <label>Si oui,comment épargnez vous ?</label>
-                    <input type="checkbox" name="moyen_éparnge" class="moyen_épargne" value="Tontine"><label>Tontine</label>
-                    <input type="checkbox" name="moyen_éparnge" class="moyen_épargne" value="Mobile_Money"><label>Mobile Money</label>
-                    <input type="checkbox" name="moyen_éparnge" class="moyen_épargne" value="Compte_bancaire"><label>Compte bancaire</label>
-                    <input type="checkbox" name="moyen_éparnge" class="moyen_épargne" value="Assurance"><label>Assurance</label>
-                    <input type="checkbox" name="moyen_éparnge" class="moyen_épargne" value="Maison"><label>A la maison</label>
-                    <input type="checkbox" name="moyen_éparnge" class="moyen_épargne" value="Autre"><label>Autre</label>
+                    <input type="checkbox" name="moyen_éparnge[]" class="moyen_épargne" value="Tontine"><label>Tontine</label>
+                    <input type="checkbox" name="moyen_éparnge[]" class="moyen_épargne" value="Mobile_Money"><label>Mobile Money</label>
+                    <input type="checkbox" name="moyen_éparnge[]" class="moyen_épargne" value="Compte_bancaire"><label>Compte bancaire</label>
+                    <input type="checkbox" name="moyen_éparnge[]" class="moyen_épargne" value="Assurance"><label>Assurance</label>
+                    <input type="checkbox" name="moyen_éparnge[]" class="moyen_épargne" value="Maison"><label>A la maison</label>
+                    <input type="checkbox" name="moyen_éparnge[]" class="moyen_épargne" value="Autre"><label>Autre</label>
                     <!-- Moyenne d'épargne par mois-->
                     <label>En moyenne ,combien épargnez vous par mois ?</label>
                     <input type="radio" name="épargneparmois" class="épargneparmois" value="M5k"><label>Moins de 5000 FCFA</label><br>
@@ -208,11 +208,11 @@
             <input type="radio" name="fréquence" class="fréquence" value="Rarement"><label>Rarement</label><br>
              <!--Rassurer -->
             <label>Qu'es ce qui vous rassurerait le plus?</label>
-            <input type="checkbox" nom="rassure" class="rassure" value="sécurité"><label>Sécurité de l'argent</label>
-            <input type="checkbox" nom="rassure" class="rassure" value="retraitpossible"><label>Possibilité de retirer</label>
-            <input type="checkbox" nom="rassure" class="rassure" value="simpleexplication"><label>Explication simples</label>
-            <input type="checkbox" nom="rassure" class="rassure" value="gainsuivi"><label>Suivi clair du gain </label>
-            <input type="checkbox" nom="rassure" class="rassure" value="appui"><label>Appui d'une banque connue</label>
+            <input type="checkbox" name="rassure[]" class="rassure" value="sécurité"><label>Sécurité de l'argent</label>
+            <input type="checkbox" name="rassure[]" class="rassure" value="retraitpossible"><label>Possibilité de retirer</label>
+            <input type="checkbox" name="rassure[]" class="rassure" value="simpleexplication"><label>Explication simples</label>
+            <input type="checkbox" name="rassure[]" class="rassure" value="gainsuivi"><label>Suivi clair du gain </label>
+            <input type="checkbox" name="rassure[]" class="rassure" value="appui"><label>Appui d'une banque connue</label>
             
 >>>>>>> 1c0712fb20b4f50d2fc85908132719e57bd181d8
 
