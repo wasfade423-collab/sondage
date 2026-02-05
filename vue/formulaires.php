@@ -36,6 +36,8 @@
             <label for="PayVil">Pays et Ville</label>
             <input type="text" name="PayVil" id="PayVil" placeholder = "Ex: Pays/Ville">
 
+            <button>Continuez</button>
+
         </div>
             <!--  Le formulaire 2-->
         <div>
@@ -63,7 +65,23 @@
         </div>
             <!--  Le formulaire 4 -->
         <div>
-    
+
+            <h2>Prise de connaissance avec les investissements</h2>
+            <!-- Investissements -->
+            <label>Avez-vous déjà entendu parler d’investissements financiers ? </label>
+            <input type="radio" name="KnownInvest" class="KnownInvest" value="oui"><label>Oui</label><br>
+            <!-- EFT -->
+            <label>Connaissez-vous des ETF ou fonds d’investissement? </label><br>
+            <input type="radio" name="eft" class="etf" value="oui"><label>Oui</label>
+            <input type="radio" name="eft" class="eft" value="non"><label>Non</label>
+            <!-- interrest -->
+            <label>Seriez-vous intéressé(e) par un investissement simple, sécurisé et expliqué pas à pas ? </label><br>
+            <input type="radio" name="interet" class="interet" value="oui"><label>Oui</label><br>
+            <input type="radio" name="interet" class="interet" value="relatif"><label>Peut-être</label><br>
+            <input type="radio" name="interet" class="interet" value="non"><label>Non</label><br>
+
+            <button>Continuez</button>        
+
         </div>
         <!--  Le formulaire 5 -->
         <div>
